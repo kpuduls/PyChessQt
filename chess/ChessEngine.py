@@ -1,7 +1,7 @@
 """
 Responsible for storing all the information about the current state of the chess game.
 Also responsible for determining the possible/valid moves at the current game state.
-Maintain a history of the made moves (Loggging moves).
+Maintain a history of the made moves (Logging moves).
 """
 
 class GameState():
