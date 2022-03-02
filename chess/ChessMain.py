@@ -15,6 +15,7 @@ IMAGES = {}
 Initialize a global dictionary of images. This will be called only once in the main to avoid lagging.
 '''
 
+
 def loadImages():
     pieces = ['bR', 'bN', 'bB', 'bQ', 'bK', 'bP', 'wR', 'wN', 'wB', 'wQ', 'wK', 'wP']
     for piece in pieces:
@@ -25,7 +26,7 @@ def loadImages():
 The main driver for the code, which will handle user input and update the graphics.
 '''
 
-def main()
+def main():
     p.init()
     screen = p.display.set_mode((WIDTH, HEIGHT))
     clock = p.time.Clock()
